@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&display=swap");
+
+* {
+  font-family: Figtree;
+}
+
+body {
+  background-color: #f4d04e;
+}
+
+/* For entire card */
+.main-card {
+  width: 384px;
+  /* height: 522px; */
+  background-color: #ffffff;
+  box-shadow: 9px 9px #111111;
+  border-style: solid;
+  border-width: thin;
+  border-color: #111111;
+  border-radius: 20px;
+  /* This below vertically centers the div */
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+/* For padding around the img */
+.main-card #img-wrapper {
+  padding-left: 24px;
+  padding-top: 24px;
+}
+
+/* Illustration-article img */
+.main-card img {
+  width: 336px;
+  height: 200px;
+  border-radius: 10px;
+}
+
+/* Div containing all texts */
+.main-card #text-wrapper {
+  padding-left: 24px;
+}
+
+/* Yellow wrap around text */
+span {
+  background-color: #f4d04e;
+  display: inline-block;
+  padding: 6px;
+  border-radius: 4px;
+  margin-top: 24px;
+  /* margin-block: 0px; */
+  /* width: 82px;
+  height: 29px; */
+  /* border-radius: 4px;
+  color: #111111;
+  font-weight: bold;
+  font-size: 14px; */
+
+}
+
+/* Published date */
+#text-wrapper #date {
+  color: #111111;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* Header text */
+#text-wrapper #header {
+  font-size: 24px;
+  font-weight: 900;
+}
+
+/* Main paragraph */
+#text-wrapper #paragraph {
+  color: #6b6b6b;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+/* To center text with the avatar*/
+#avatar-wrap {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+/* Resize the avatar img */
+#avatar-wrap img {
+  width: 32px;
+  height: 32px;
+}
+
+/* Author name */
+#avatar-wrap p {
+  color: #111111;
+  margin-left: 12px;
+  font-size: 14px;
+  font-weight: 900;
+}
