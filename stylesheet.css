@@ -29,6 +29,15 @@ body {
   transform: translate(-50%, -50%);
 }
 
+/* hovering effects */
+.main-card:hover,
+.main-card:focus {
+  cursor: pointer;
+  color: #f4d04e;
+  box-shadow: 18px 18px #111111;
+  transition:0.6s ease;
+}
+
 /* For padding around the img */
 .main-card #img-wrapper {
   padding-left: 24px;
@@ -43,7 +52,6 @@ body {
   width: 100%;
   height: auto;
   border-radius: 10px;
-
 }
 
 /* Div containing all texts */
@@ -105,4 +113,3 @@ span {
   font-size: 14px;
   font-weight: 900;
 }
-
