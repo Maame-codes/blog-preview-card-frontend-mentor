@@ -1,6 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Lexend+Deca:wght@100..900&display=swap");
 
 * {
+  box-sizing: border-box;
+  font-optical-sizing: auto;
   font-family: Figtree;
 }
 
@@ -31,13 +33,17 @@ body {
 .main-card #img-wrapper {
   padding-left: 24px;
   padding-top: 24px;
+  padding-right: 24px;
 }
 
 /* Illustration-article img */
 .main-card img {
-  width: 336px;
-  height: 200px;
+  /* width: ;
+  border-radius: 10px; */
+  width: 100%;
+  height: auto;
   border-radius: 10px;
+
 }
 
 /* Div containing all texts */
@@ -52,14 +58,9 @@ span {
   padding: 6px;
   border-radius: 4px;
   margin-top: 24px;
-  /* margin-block: 0px; */
-  /* width: 82px;
-  height: 29px; */
-  /* border-radius: 4px;
+  font-size: 14px;
+  font-weight: 900;
   color: #111111;
-  font-weight: bold;
-  font-size: 14px; */
-
 }
 
 /* Published date */
@@ -104,3 +105,4 @@ span {
   font-size: 14px;
   font-weight: 900;
 }
+
