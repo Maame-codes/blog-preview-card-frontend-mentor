@@ -28,8 +28,7 @@ The challenge here was to;
 
 ### Screenshot
 
-![screenshot-blog-preview-card](<Screenshot blog preview card.jpg>)
-
+![Screenshot](<Screenshot 2024-11-05 at 01-35-44 Blog Preview Card.png>)
 ### Links
 
 - Live Site URL: [http://127.0.0.1:5500/blog-preview-card-frontend-mentor/]
